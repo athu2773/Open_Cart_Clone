@@ -1,0 +1,66 @@
+/* Section Styles */
+.demo-section {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.demo-section h1 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+}
+
+.demo-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Container for Demos */
+.demo-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.demo-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.demo-box h2 {
+    font-size: 22px;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.demo-box img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+.btn-container {
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #009cff;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #007acc;
+}

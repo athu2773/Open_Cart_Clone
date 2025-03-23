@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="CSS/register.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">opencart</div>
+            <ul class="nav-links">
+                <li><a href="#">Features</a></li>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Download</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Resources ▾</a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-card">
+                            <a href="#">Showcase</a>
+                            <a href="#">Contact Us</a>
+                            <a href="#">OpenCart Partners</a>
+                            <a href="#">Community Forums</a>
+                            <a href="#">Facebook Community</a>
+                            <a href="#">OpenCart Documentation</a>
+                            <a href="#">OpenCart Books</a>
+                            <a href="#">GitHub Bug Tracker</a>
+                            <a href="#">Developer</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="login" onclick="location.href='login.html'">Login</button>
+                <button class="register" onclick="location.href='register.html'">Register</button>
+            </div>    
+        </nav>
+    </header>
+    <script src="javascript/script.js"></script>
+    <main>
+        <div class="register">
+            <h2>Register for OpenCart account</h2>
+            <form id="registrationForm">
+                <label for="username">* Username</label>
+                <input type="text" id="username" placeholder="Username">
+
+                <div class="name-fields">
+                    <div>
+                        <label for="first-name">* First Name</label>
+                        <input type="text" id="first-name" placeholder="First Name">
+                    </div>
+                    <div>
+                        <label for="last-name">* Last Name</label>
+                        <input type="text" id="last-name" placeholder="Last Name">
+                    </div>
+                </div>
+
+                <label for="email">* E-Mail</label>
+                <input type="email" id="email" placeholder="E-Mail">
+
+                <label for="country">* Country</label>
+                <select id="country">
+                    <option>Select Country</option>
+                    <option>United States</option>
+                    <option>United Kingdom</option>
+                    <option>Canada</option>
+                <option>India</option>
+                </select>
+
+                <label for="password">* Password</label>
+                <input type="password" id="password" placeholder="Password">
+
+                <button type="submit" class="btn register-btn">REGISTER</button>
+            </form>
+        </div>
+
+        <div class="info-box">
+            <h3>Why join OpenCart.com?</h3>
+            <ul>
+                <li>✔ You will be in good hands. More than 350,000+ live stores</li>
+                <li>✔ Access to 13,000+ Modules and themes in the <a href="#">OpenCart Marketplace</a></li>
+                <li>✔ Post questions in the <a href="#">OpenCart Community Forum</a></li>
+                <li>✔ Get a free subscription to our newsletter</li>
+                <li>✔ Apply for an OpenCart Developer account <a href="#">here</a></li>
+            </ul>
+        </div>
+    </main>
+    <script src="register.js"></script>
+     <!-- Footer Section -->
+     <footer class="footer">
+        <!-- Footer Links -->
+        <div class="footer-links">
+            <div class="footer-column">
+                <h4>OPENCART</h4>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Showcase</a></li>
+                    <li><a href="#">Demo</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Extension Advertising</a></li>
+                    <li><a href="#">Marketplace Advertising</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">GDPR</a></li>
+                    <li><a href="#">Extension Developer</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>SUPPORT</h4>
+                <ul>
+                    <li><a href="#">Community Forum</a></li>
+                    <li><a href="#">Dedicated Support</a></li>
+                    <li><a href="#">OpenCart Partners</a></li>
+                    <li><a href="#">Marketplace Support</a></li>
+                    <li><a href="#">Migrate to OpenCart</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>RESOURCES</h4>
+                <ul>
+                    <li><a href="#">OpenCart Blog</a></li>
+                    <li><a href="#">OpenCart Documentation</a></li>
+                    <li><a href="#">OpenCart Books</a></li>
+                    <li><a href="#">GitHub Bug Tracker</a></li>
+                    <li><a href="#">Developer</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column newsletter">
+                <h4>NEWSLETTER</h4>
+                <p>Subscribe to our newsletters and stay informed of new releases and other OpenCart events.</p>
+                <div class="newsletter-input">
+                    <input type="email" placeholder="Enter your email address">
+                    <button>→</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="footer-bottom">
+            <div class="left">
+                <img src="https://www.opencart.com/application/view/image/icon/opencart-logo-white.png" alt="OpenCart Logo">
+                <p>© Copyright 2025 OpenCart</p>
+            </div>
+            <div class="right">
+                <img src="https://www.opencart.com/application/view/image/icon/facebook_marketing_partner.png" alt="Marketing Partner">
+                <a href="#">LinkedIn</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,96 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.register {
+    width: 55%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.name-fields div {
+    width: 50%;
+}
+
+.captcha {
+    margin-top: 20px;
+    padding: 10px;
+    background: #e6f3ff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.captcha-box {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.refresh {
+    margin-top: 5px;
+    padding: 5px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background: #4db8ff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.register-btn:hover {
+    background: #0099ff;
+}
+
+.info-box {
+    width: 40%;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 5px;
+}
+
+.info-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-box li {
+    padding: 5px 0;
+}
+
+.info-box a {
+    color: #00a5df;
+    text-decoration: none;
+}
