@@ -13,8 +13,11 @@ This project replicates the layout, design, and core sections of the original pl
 
 🔗 **View Project:** [https://opencartclone.netlify.app/](https://opencartclone.netlify.app/)
 
+### Demo Preview
 
+![OpenCart Clone preview](./images/image.png)
 
+![OpenCart Clone preview](./images/2.png)
 ---
 
 ## ✨ Features
